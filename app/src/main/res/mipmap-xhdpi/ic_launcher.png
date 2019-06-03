@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--
+===============================================================
+                        PLEASE READ
+===============================================================
+
+The Holo themes must not be modified in order to pass CTS.
+Many related themes and styles depend on other values defined in this file.
+If you would like to provide custom themes and styles for your device,
+please see styles_device_defaults.xml.
+
+===============================================================
+                        PLEASE READ
+===============================================================
+ -->
+<resources>
+    <!-- Holo Theme Styles -->
+    <eat-comment />
+
+
+    <!-- Begin Holo theme styles -->
+
+    <!-- Text Styles -->
+    <style name="TextAppearance.Holo" parent="TextAppearance" />
+
+    <style name="TextAppearance.Holo.Inverse" parent="TextAppearance.Inverse">
+        <item name="textColor">?textColorPrimaryInverse</item>
+        <item name="textColorHint">?textColorHintInverse</item>
+        <item name="textColorHighlight">?textColorHighlightInverse</item>
+        <item name="textColorLink">?textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Holo.Large" parent="TextAppearance.Large" />
+
+    <style name="TextAppearance.Holo.Medium" parent="TextAppearance.Medium" />
+
+    <style name="TextAppearance.Holo.Small" parent="TextAppearance.Small" />
+
+    <style name="TextAppearance.Holo.Large.Inverse">
+        <item name="textColor">?textColorPrimaryInverse</item>
+        <item name="textColorHint">?textColorHintInverse</item>
+        <item name="textColorHighlight">?textColorHighlightInverse</item>
+        <item name="textColorLink">?textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Holo.Medium.Inverse">
+        <item name="textColor">?textColorPrimaryInverse</item>
+        <item name="textColorHint">?textColorHintInverse</item>
+        <item name="textColorHighlight">?textColorHighlightInverse</item>
+        <item name="textColorLink">?textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Holo.Small.Inverse">
+        <item name="textColor">?textColorSecondaryInverse</item>
+        <item name="textColorHint">?textColorHintInverse</item>
+        <item name="textColorHighlight">?textColorHighlightInverse</item>
+        <item name="textColorLink">?textColorLinkInverse</item>
+    </style>
+
+    <style name="TextAppearance.Holo.SearchResult">
+        <item name="textStyle">normal</item>
+        <item name="textColor">?textColorPrimary</item>
+        <item name="textColorHint">?textColorHint</item>
+    </style>
+
+    <style name="TextAppearance.Holo.SearchResult.Title">
+        <item name="textSize">18sp</item>
+    </style>
+
+    <style name="TextAppearance.Holo.SearchResult.Subtitle">
+        <item name="textSize">14sp</item>
+        <item name="textColor">?textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Holo.Widget" parent="TextAppearance.Widget" />
+
+    <style name="TextAppearance.Holo.Widget.Button" parent="TextAppearance.Holo.Small.Inverse">
+        <item name="textColor">@color/primary_text_light_nodisable</item>
+    </style>
+
+    <style name="TextAppearance.Holo.Widget.IconMenu.Item" parent="TextAppearance.Holo.Small">
+        <item name="textColor">?textColorPrimary</item>
+    </style>
+
+    <!-- This style is for smaller screens; values-xlarge defines a version
+         for larger screens. -->
+    <style name="TextAppearance.Holo.Widget.TabWidget">
+        <item name="textSize">14sp</item>
+        <item name="textStyle">normal</item>
+        <item name="textColor">@color/tab_indicator_text</item>
+    </style>
+
+    <style name="TextAppearance.Holo.Widget.TextView">
+        <item name="textColor">?textColorPrimaryDisableOnly</item>
+        <item name="textColorHint">?textColorHint</it

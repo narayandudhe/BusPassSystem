@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--
+===============================================================
+                        PLEASE READ
+===============================================================
+
+The Holo themes must not be modified in order to pass CTS.
+Many related themes and styles depend on other values defined in this file.
+If you would like to provide custom themes and styles for your device,
+please see themes_device_defaults.xml.
+
+===============================================================
+                        PLEASE READ
+===============================================================
+ -->
+<resources>
+    <!-- The default theme for apps on API level 10 and lower. This is the theme used for
+         activities that have not explicitly set their own theme.
+         <p>You can count on this being a dark
+         background with light text on top, but should try to make no
+         other assumptions about its appearance. In particular, the text
+         inside of widgets using this theme may be completely different,
+         with the widget container being a light color and the text on top
+         of it a dark color.
+         <p>If you're developing for API level 11 and higher, you should instead use {@link
+         #Theme_Holo} or {@link #Theme_DeviceDefault}.</p>
+    -->
+
+    <!-- Honeycomb holographic theme (dark version).
+         <p>This is the default system theme for apps that target API level 11 - 13. Starting
+         with API level 14, the default system theme is supplied by {@link #Theme_DeviceDefault},
+         which might apply a different style on different devices. If you want to ensure that your
+         app consistently uses the Holo theme at all times, you must explicitly declare it in your
+         manifest. For example, {@code <application android:theme="@android:style/Theme.Holo">}.
+         For more information, read <a
+         href="http://android-developers.blogspot.com/2012/01/holo-everywhere.html">Holo
+         Everywhere</a>.</p>
+         <p>The widgets in the holographic theme are translucent on their background, so
+         applications must ensure that any background they use with this theme is itself
+         dark; otherwise, it will be difficult to see the widgets. This UI style also includes a
+         full action bar by default.</p>
+
+         <p>Styles used by the Holo theme are named using the convention Type.Holo.Etc
+         (for example, {@code Widget.Holo.Button} and {@code
+         TextAppearance.Holo.Widget.PopupMenu.Large}).
+         Specific resources used by Holo are named using the convention @type/foo_bar_baz_holo
+         with trailing _dark or _light specifiers if they are not shared between both light and
+         dark versions of the theme. -->
+    <style name="Theme.Holo">
+        <item name="colorForeground">@color/bright_foreground_holo_dark</item>
+        <item name="colorForegroundInverse">@color/bright_foreground_inverse_holo_dark</item>
+        <item name="colorBackground">@color/background_holo_dark</item>
+        <item name="colorBackgroundFloating">@color/background_holo_dark</item>
+        <item name="colorBackgroundCacheHint">@color/background_cache_hint_selector_holo_dark</item>
+        <item name="disabledAlpha">0.5</item>
+        <item name="backgroundDimAmount">0.6</item>
+
+        <item name="colorPressedHighlight">@color/holo_gray_light</item>
+        <item name="colorLongPressedHighlight">@color/holo_gray_bright</item>
+        <item name="colorFocusedHighlight">@color/holo_blue_dark</item>
+        <item name="colorMultiSelectHighlight">@color/holo_green_light</item>
+        <item name="colorActivatedHighlight">@color/holo_blue_dark</item>
+
+        <item name="colorPrimaryDark">@color/holo_primary_dark</item>
+        <item name="colorPrimary">@color/holo_primary</item>
+        <item name="colorControlActivated">@color/holo_control_activated</item>
+        <item name="colorControlNormal">@color/holo_control_normal</item>
+        <item name="colorControlHighlight">@color/holo_button_pressed</item>
+        <item name="colorButtonNormal">@color/holo_button_normal</item>
+        <item name="colorEdgeEffect">?attr/colorPrimary</item>
+
+        <!-- Text styles -->
+        <item name="textAppearance">@style/TextAppearance.Holo</item>
+        <item name="textAppearanceInverse">@style/TextAppearance.Holo.Inverse</item>
+
+        <item name="textColorPrimary">@color/primary_text_holo_dark</item>
+        <item name="textColorSecondary">@color/secondary_text_holo_dark</item>
+        <item name="textColorTertiary">@color/tertiary_text_holo_dark</item>
+        <item name="textColorPrimaryInverse">@color/primary_text_holo_light</item>
+        <item name="textColorSecondaryInverse">@color/secondary_text_holo_light</item>
+        <item name="textColorTertiaryInverse">@color/tertiary_text_holo_light</item>
+        <item name="textColorPrimaryActivated">@color/primary_text_holo_dark</item>
+        <item name="textColorSecondaryActivated">@color/secondary_text_holo_dark</item>
+        <item name="textColorPrimaryDisableOnly">@color/primary_text_disable_only_holo_dark</item>
+        <item name="textColorPrimaryInverseDisableOnly">@color/primary_text_disable_only_holo_light</item>
+        <item name="textColorPrimaryNoDisable">@color/primary_text_nodisable_holo_dark</item>
+        <item name="textColorSecondaryNoDisable">@color/secondary_text_nodisable_holo_dark</item>
+        <item name="textColorPrimaryInverseNoDisable">@color/primary_text_nodisable_holo_light</item>
+        <item name="textColorSecondaryInverseNoDisable">@color/secondary_text_nodisable_holo_light</item>
+        <item name="textColorHint">@color/hint_foreground_holo_dark</item>
+        <item name="textColorHintI

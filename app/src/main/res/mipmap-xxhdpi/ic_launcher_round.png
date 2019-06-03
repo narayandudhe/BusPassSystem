@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* //device/apps/common/assets/res/any/strings.xml
+**
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Suffix added to a number to signify size in bytes. -->
+    <string name="byteShort">B</string>
+    <!-- Suffix added to a number to signify size in kilobytes. -->
+    <string name="kilobyteShort">KB</string>
+    <!-- Suffix added to a number to signify size in megabytes. -->
+    <string name="megabyteShort">MB</string>
+    <!-- Suffix added to a number to signify size in gigabytes. -->
+    <string name="gigabyteShort">GB</string>
+    <!-- Suffix added to a number to signify size in terabytes. -->
+    <string name="terabyteShort">TB</string>
+    <!-- Suffix added to a number to signify size in petabytes. -->
+    <string name="petabyteShort">PB</string>
+    <!-- Format string used to add a suffix like "KB" or "MB" to a number
+         to display a size in kilobytes, megabytes, or other size units.
+         Some languages (like French) will want to add a space between
+         the placeholders. -->
+    <string name="fileSizeSuffix"><xliff:g id="number" example="123">%1$s</xliff:g> <xliff:g id="unit" example="KB">%2$s</xliff:g></string>
+
+    <!-- [CHAR_LIMIT=10] Suffix added to signify duration in days -->
+    <string name="durationDays"><xliff:g id="days">%1$d</xliff:g> days</string>
+
+    <!-- [CHAR_LIMIT=10] Suffix added to signify duration of one day with hours -->
+    <string name="durationDayHours"><xliff:g id="days">%1$d</xliff:g> day
+            <xliff:g id="hours">%2$d</xliff:g> hrs</string>
+
+    <!-- [CHAR_LIMIT=10] Suffix added to signify duration of one day with one hours -->
+    <string name="durationDayHour"><xliff:g id="days">%1$d</xliff:g> day
+            <xliff:g id="hours">%2$d</xliff:g> hr</string>
+
+    <!-- [CHAR_LIMIT=10] Suffix added to signify duration in hours -->
+    <string name="durationHours"><xliff:g id="hours">%1$d</xliff:g> hrs</string>
+
+    <!-- [CHAR_LIMIT=10] Suffix added to signify duration of one hour with minutes -->
+    <string name="durationHourMinutes"><xliff:g id="hours">%1$d</xliff:g> hr
+            <xliff:g id="minutes">%2$d</xliff:g> mins</string>
+
+    <!-- [CHAR_LIMIT=10] Suffix added to signify duration of one hour with one minute -->
+    <string name="durationHourMinute"><xliff:g id="hours">%1$d</xliff:g> hr
+            <xliff:g id="minutes">%2$d</xliff:g> min</string>
+
+    <!-- [CHAR_LIMIT=10] Suffix added to signify duration in minutes -->
+    <string name="durationMinutes"><xliff:g id="minutes">%1$d</xliff:g> mins</string>
+
+    <!-- [CHAR_LIMIT=10] Suffix added to signify duration of one minute -->
+    <string name="durationMinute"><xliff:g id="minutes">%1$d</xliff:g> min</string>
+
+    <!-- [CHAR_LIMIT=10] Suffix added to signify duration of one minute with seconds -->
+    <string name="durationMinuteSeconds"><xliff:g id="minutes">%1$d</xliff:g> min
+            <xliff:g id="seconds">%2$d</xliff:g> secs</string>
+
+    <!-- [CHAR_LIMIT=10] Suffix added to signify duration of one minute with one second -->
+    <string name="durationMinuteSecond"><xliff:g id="minutes">%1$d</xliff:g> min
+            <xliff:g id="seconds">%2$d</xliff:g> sec</string>
+
+    <!-- [CHAR_LIMIT=10] Suffix added to signify duration in seconds -->
+    <string name="durationSeconds"><xliff:g id="seconds">%1$d</xliff:g> secs</string>
+
+    <!-- [CHAR_LIMIT=10] Suffix added to signify duration of one second -->
+    <string name="durationSecond"><xliff:g id="seconds">%1$d</xliff:g> sec</string>
+
+    <!-- Used in Contacts for a field that has no label and in Note Pad
+         for a note with no name. -->
+    <string name="untitled">&lt;Untitled&gt;</string>
+
+    <!-- How to display the lack of a phone number -->
+    <string name="emptyPhoneNumber">(No phone number)</string>
+
+    <!-- How to display the lack of a name -->
+    <string name="unknownName">Unknown</string>
+
+    <!-- What the UI should display for "voice mail" unless overridden by the SIM-->
+    <string name="defaultVoiceMailAlphaTag">Voicemail</string>
+
+    <!-- What the UI should display for "Msisdn" unless overridden by the SIM-->
+    <string name="defaultMsisdnAlphaTag">MSISDN1</string>
+
+    <!-- For GsmMmiCode.java --> <skip />
+    <!-- Displayed when the user dialed an MMI code whose function
+         could not be performed. This will be displayed in a toast. -->
+    <string name="mmiError">Connection problem or invalid MMI code.</string>
+    <!-- Displayed when the user dialed an MMI code whose function
+         could not be performed because FDN is enabled. This will be displayed in a toast. -->
+    <string name="mmiFdnError">Operation is restricted to fixed dialing numbers only.</string>
+
+    <!-- Displayed when a phone feature such as call barring was activated. -->
+    <string name="serviceEnabled">Service was enabled.</string>
+    <!-- Displayed in front of the list of a set of service classes
+         (voice, data, fax, etc.) that were enabled. -->
+    <string name="serviceEnabledFor">Service was enabled for:</string>
+    <!-- Displayed when a phone feature such as call forwarding was deactivated. -->
+    <string name="serviceDisabled">Service has been disabled.</string>
+    <!-- Displayed when a phone property such as a SIM password was registered. -->
+    <string name="serviceRegistered">Registration was successful.</string>
+    <!-- Displayed when a phone property such as a SIM password was erased. -->
+    <string name="serviceErased">Erasure was successful.</string>
+    <!-- Displayed when a SIM password was entered incorrectly. -->
+    <string name="passwordIncorrect">Incorrect password.</string>
+    <!-- Displayed when a phone feature triggered by an MMI code is complete. -->
+    <string name="mmiComplete">MMI complete.</string>
+    <!-- Displayed when a SIM PIN password is entered incorrectly. -->
+    <string name="badPin">The old PIN you typed isn\'t correct.</string>
+    <!-- Displayed when a SIM PUK password is entered incorrectly. -->
+    <string name="badPuk">The PUK you typed isn\'t correct.</string>
+    <!-- Displayed when SIM PIN passwords are entered inconsistently. -->
+    <string name="mismatchPin">The PINs you typed don\'t match.</string>
+    <!-- Displayed when a SIM PIN password is too long or too short. -->
+    <string name="invalidPin">Type a PIN that is 4 to 8 numbers.</string>
+    <!-- Displayed when a SIM PUK password is too short. -->
+    <string name="invalidPuk">Type a PUK that is 8 numbers or longer.</string>
+    <!-- Displayed to prompt the user to type the PUK password to unlock
+         the SIM card. -->
+    <string name="needPuk">Your SIM card is PUK-locked. Type the PUK code to unlock it.</string>
+    <string name="needPuk2">Type PUK2 to unblock SIM card.</string>
+    <!-- Displayed when user attempts to change SIM PIN1 without enabling PIN1. -->
+    <string name="enablePin">Unsuccessful, enable SIM/RUIM Lock.</string>
+    <!-- Displayed when a SIM PIN/PUK is entered incorrectly. -->
+    <plurals name="pinpuk_attempts">
+        <item quantity="one">You have <xliff:g id="number">%d</xliff:g> remaining attempt before SIM is locked.</item>
+        <item quantity="other">You have <xliff:g id="number">%d</xliff:g> remaining attempts before SIM is locked.</item>
+    </plurals>
+    <!-- Title for the dialog used to display the user's IMEI number [CHAR LIMIT=10] -->
+    <string name="imei">IMEI</string>
+
+    <!-- Title for the dialog used to display the user's MEID number on CDMA network
+         [CHAR LIMIT=10] -->
+    <string name="meid">MEID</string>
+
+    <!-- Displayed as the title for a success/failure report enabling/disabling caller ID. -->
+    <string name="ClipMmi">Incoming Caller ID</string>
+    <!-- Displayed as the title for a success/failure report enabling/disabling caller ID. -->
+    <string name="ClirMmi">Outgoing Caller ID</string>
+    <!-- Displayed as the title for a success/failure report enabling/disabling connected line ID. -->
+    <string name="ColpMmi">Connected Line ID</string>
+    <!-- Displayed as the title for a success/failure report enabling/disabling connected line ID restriction. -->
+    <string name="ColrMmi">Connected Line ID Restriction</string>
+    <!-- Displayed as the title for a success/failure report enabling/disabling call forwarding. -->
+    <string name="CfMmi">Call forwarding</string>
+    <!-- Displayed as the title for a success/failure report enabling/disabling call waiting. -->
+    <string name="CwMmi">Call waiting</string>
+    <!-- Displayed as the title for a success/failure report enabling/disabling call barring. -->
+    <string name="BaMmi">Call barring</string>
+    <!-- Displayed as the title for a success/failure report changing the SIM password. -->
+    <string name="PwdMmi">Password change</string>
+    <!-- Displayed as the title for a success/failure report changing the SIM PIN. -->
+    <string name="PinMmi">PIN change</string>
+    <string name="CnipMmi">Calling number present</string>
+    <string name="CnirMmi">Calling number restricted</string>
+    <string name="ThreeWCMmi">Three way calling</string>
+    <string name="RuacMmi">Rejection of undesired annoying calls</string>
+    <string name="CndMmi">Calling number delivery</string>
+    <string name="DndMmi">Do not disturb</string>
+
+    <!-- Displayed to confirm to the user that caller ID will be restricted on the next call as usual. -->
+    <string name="CLIRDefaultOnNextCallOn">Caller ID defaults to restricted. Next call: Restricted</string>
+    <!-- Displayed to confirm to the user that caller ID will be not restricted on the next call even though it usually is. -->
+    <string name="CLIRDefaultOnNextCallOff">Caller ID defaults to restricted. Next call: Not restricted</string>
+    <!-- Displayed to confirm to the user that calle

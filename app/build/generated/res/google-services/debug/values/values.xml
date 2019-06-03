@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">999747787181-ueqga7n8tqhootdfj3s1fso411ru0pi6.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://bus-pass-16aab.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">999747787181</string>
+    <string name="google_api_key" translatable="false">AIzaSyCkKCCToASLPmG4MGmS8zUul4ZQypVkS2w</string>
+    <string name="google_app_id" translatable="false">1:999747787181:android:fd8a9cfe701eddcb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCkKCCToASLPmG4MGmS8zUul4ZQypVkS2w</string>
+    <string name="google_storage_bucket" translatable="false">bus-pass-16aab.appspot.com</string>
+    <string name="project_id" translatable="false">bus-pass-16aab</string>
+</resources>

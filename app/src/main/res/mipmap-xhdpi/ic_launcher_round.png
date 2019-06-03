@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2006 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<!--
+===============================================================
+                        PLEASE READ
+===============================================================
+
+The Holo themes must not be modified in order to pass CTS.
+Many related themes and styles depend on other values defined in this file.
+If you would like to provide custom themes and styles for your device,
+please see themes_device_defaults.xml.
+
+===============================================================
+                        PLEASE READ
+===============================================================
+ -->
+<resources>
+    <!-- The default theme for apps on API level 10 and lower. This is the theme used for
+         activities that have not explicitly set their own theme.
+         <p>You can count on this being a dark
+         background with light text on top, but should try to make no
+         other assumptions about its appearance. In particular, the text
+         inside of widgets using this theme may be completely different,
+         with the widget container being a light color and the text on top
+         of it a dark color.
+         <p>If you're developing for API level 11 and higher, you should instead use {@link
+         #Theme_Holo} or {@link #Theme_DeviceDefault}.</p>
+    -->
+    <style name="Theme">
+
+        <item name="isLightTheme">false</item>
+        <item name="colorForeground">@color/bright_foreground_dark</item>
+        <item name="colorForegroundInverse">@color/bright_foreground_dark_inverse</item>
+        <item name="colorBackground">@color/background_dark</item>
+        <item name="colorBackgroundFloating">?attr/colorBackground</item>
+        <item name="colorBackgroundCacheHint">?attr/colorBackground</item>
+
+        <item name="colorPressedHighlight">@color/legacy_pressed_highlight</item>
+        <item name="colorLongPressedHighlight">@color/legacy_long_pressed_highlight</item>
+        <item name="colorFocusedHighlight">@color/legacy_selected_highlight</item>
+        <item name="colorMultiSelectHighlight">@color/legacy_selected_highlight</item>
+        <item name="colorActivatedHighlight">@color/legacy_selected_highlight</item>
+
+        <item name="colorPrimaryDark">@color/legacy_primary_dark</item>
+        <item name="colorPrimary">@color/legacy_primary</item>
+        <item name="colorSecondary">?attr/colorPrimary</item>
+        <item name="colorControlActivated">@color/legacy_control_activated</item>
+        <item name="colorControlNormal">@color/legacy_control_normal</item>
+        <item name="colorControlHighlight">@color/legacy_button_pressed</item>
+        <item name="colorButtonNormal">@color/legacy_button_normal</item>
+        <item name="colorEdgeEffect">?attr/colorPrimary</item>
+
+        <item name="disabledAlpha">0.5</item>
+        <item name="backgroundDimAmount">0.6</item>
+
+        <!-- Text styles -->
+        <item name="textAppearance">@style/TextAppearance</item>
+        <item name="textAppearanceInverse">@style/TextAppearance.Inverse</item>
+
+        <item name="textColorPrimary">@color/primary_text_dark</item>
+        <item name="textColorSecondary">@color/secondary_text_dark</item>
+        <item name="textColorTertiary">@color/tertiary_text_dark</item>
+        <item name="textColorPrimaryInverse">@color/primary_text_light</item>
+        <item name="textColorSecondaryInverse">@color/secondary_text_light</item>
+        <item name="textColorTertiaryInverse">@color/tertiary_text_light</item>
+        <item name="textColorPrimaryActivated">@color/primary_text_dark</item>
+        <item name="textColorSecondaryActivated">@color/secondary_text_dark</item>
+        <item name="textColorPrimaryDisableOnly">@color/primary_text_dark_disable_only</item>
+        <item name="textColorPrimaryInverseDisableOnly">@color/primary_text_light_disable_only</item>
+        <item name="textColorPrimaryNoDisable">@color/primary_text_dark_nodisable</item>
+        <item name="textColorSecondaryNoDisable">@color/secondary_text_dark_nodisable</item>
+        <item name="textColorPrimaryInverseNoDisable">@color/primary_text_light_nodisable</item>
+        <item name="textColorSecondaryInverseNoDisable">@color/secondary_text_light_nodisable</item>
+        <item name="textColorHint">@color/hint_foreground_dark</item>
+        <item name="textColorHintInverse">@color/hint_foreground_light</item>
+        <item name="textColorSearchUrl">@color/search_url_text</item>
+        <item name="textColorHighlight">@color/highlighted_text_dark</item>
+        <item name="textColorHighlightInverse">@color/highlighted_text_light</item>
+        <item name="textColorLink">@color/link_text_dark</item>
+        <item name="textColorLinkInverse">@color/link_text_light</item>
+        <item name="textColorAlertDialogListItem">@color/primary_text_light_disable_only</item>
+
+        <item name="textAppearanceLarge">@style/TextAppearance.Large</item>
+        <item name="textAppearanceMedium">@style/TextAppearance.Medium</item>
+        <item name="textAppearanceSmall">@style/TextAppearance.Small</item>
+        <item name="textAppearanceLargeInverse">@style/TextAppearance.Large.Inverse</item>
+        <item name="textAppearanceMediumInverse">@style/TextAppearance.Medium.Inverse</item>
+        <item name="textAppearanceSmallInverse">@style/TextAppearance.Small.Inverse</item>
+        <item name="textAppearanceSearchResultTitle">@style/TextAppearance.SearchResult.Title</item>
+        <item name="textAppearanceSearchResultSubtitle">@style/TextAppearance.SearchResult.Subtitle</item>
+
+        <item name="textAppearanceEasyCorrectSuggestion">@style/TextAppearance.EasyCorrectSuggestion</item>
+        <item name="textAppearanceMisspelledSuggestion">@style/TextAppearance.MisspelledSuggestion</item>
+        <item name="textAppearanceAutoCorrectionSuggestion">@style/TextAppearance.AutoCorrectionSuggestion</item>
+
+        <item name="textAppearanceButton">@style/TextAppearance.Widget.Button</item>
+
+        <item name="editTextColor">@color/primary_text_light</item>
+        <item name="editTextBackground">@drawable/edit_text</item>
+
+        <item name="candidatesTextStyleSpans">@string/candidates_style</item>
+
+        <item name="textCheckMark">@drawable/indicator_check_mark_da

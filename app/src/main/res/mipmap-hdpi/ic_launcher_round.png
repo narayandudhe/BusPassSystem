@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file defines the base public resources exported by the
+     platform, which must always exist. -->
+
+<!-- ***************************************************************
+     ***************************************************************
+     IMPORTANT NOTE FOR ANYONE MODIFYING THIS FILE
+     READ THIS BEFORE YOU MAKE ANY CHANGES
+
+     This file defines the binary compatibility for resources.  As such,
+     you must be very careful when making changes here, or you will
+     completely break backwards compatibility with old applications.
+
+     To avoid breaking compatibility, all new resources must be placed
+     at the end of the list of resources of the same type.  Placing a resource
+     in the middle of type will cause all following resources to be
+     assigned new resource numbers, breaking compatibility.
+
+     ***************************************************************
+     *************************************************************** -->
+<resources>
+
+<!-- ===============================================================
+     Resources for version 1 of the platform.
+     =============================================================== -->
+  <eat-comment />
+
+  <public type="attr" name="theme" id="0x01010000" />
+  <public type="attr" name="label" id="0x01010001" />
+  <public type="attr" name="icon" id="0x01010002" />
+  <public type="attr" name="name" id="0x01010003" />
+  <public type="attr" name="manageSpaceActivity" id="0x01010004" />
+  <public type="attr" name="allowClearUserData" id="0x01010005" />
+  <public type="attr" name="permission" id="0x01010006" />
+  <public type="attr" name="readPermission" id="0x01010007" />
+  <public type="attr" name="writePermission" id="0x01010008" />
+  <public type="attr" name="protectionLevel" id="0x01010009" />
+  <public type="attr" name="permissionGroup" id="0x0101000a" />
+  <public type="attr" name="sharedUserId" id="0x0101000b" />
+  <public type="attr" name="hasCode" id="0x0101000c" />
+  <public type="attr" name="persistent" id="0x0101000d" />
+  <public type="attr" name="enabled" id="0x0101000e" />
+  <public type="attr" name="debuggable" id="0x0101000f" />
+  <public type="attr" name="exported" id="0x01010010" />
+  <public type="attr" name="process" id="0x01010011" />
+  <public type="attr" name="taskAffinity" id="0x01010012" />
+  <public type="attr" name="multiprocess" id="0x01010013" />
+  <public type="attr" name="finishOnTaskLaunch" id="0x01010014" />
+  <public type="attr" name="clearTaskOnLaunch" id="0x01010015" />
+  <public type="attr" name="stateNotNeeded" id="0x01010016" />
+  <public type="attr" name="excludeFromRecents" id="0x01010017" />
+  <public type="attr" name="authorities" id="0x01010018" />
+  <public type="attr" name="syncable" id="0x01010019" />
+  <public type="attr" name="initOrder" id="0x0101001a" />
+  <public type="attr" name="grantUriPermissions" id="0x0101001b" />
+  <public type="attr" name="priority" id="0x0101001c" />
+  <public type="attr" name="launchMode" id="0x0101001d" />
+  <public type="attr" name="screenOrientation" id="0x0101001e" />
+  <public type="attr" name="configChanges" id="0x0101001f" />
+  <public type="attr" name="description" id="0x01010020" />
+  <public type="attr" name="targetPackage" id="0x01010021" />
+  <public type="attr" name="handleProfiling" id="0x01010022" />
+  <public type="attr" name="functionalTest" id="0x01010023" />
+  <public type="attr" name="value" id="0x01010024" />
+  <public type="attr" name="resource" id="0x01010025" />
+  <public type="attr" name="mimeType" id="0x01010026" />
+  <public type="attr" name="scheme" id="0x01010027" />
+  <public type="attr" name="host" id="0x01010028" />
+  <public type="attr" name="port" id="0x01010029" />
+  <public type="attr" name="path" id="0x0101002a" />
+  <public type="attr" name="pathPrefix" id="0x0101002b" />
+  <public type="attr" name="pathPattern" id="0x0101002c" />
+  <public type="attr" name="action" id="0x0101002d" />
+  <public type="attr" name="data" id="0x0101002e" />
+  <public type="attr" name="targetClass" id="0x0101002f" />
+  <public type="attr" name="colorForeground" id="0x01010030" />
+  <public type="attr" name="colorBackground" id="0x01010031" />
+  <public type="attr" name="backgroundDimAmount" id="0x01010032" />
+  <public type="attr" name="disabledAlpha" id="0x01010033" />
+  <public type="attr" name="textAppearance" id="0x01010034" />
+  <public type="attr" name="textAppearanceInverse" id="0x01010035" />
+  <public type="attr" name="textColorPrimary" id="0x01010036" />
+  <public type="attr" name="textColorPrimaryDisableOnly" id="0x01010037" />
+  <public type="attr" name="textColorSecondary" id="0x01010038" />
+  <public type="attr" name="textColorPrimaryInverse" id="0x01010039" />
+  <public type="attr" name="textColorSecondaryInverse" id="0x0101003a" />
+  <public type="attr" name="textColorPrimaryNoDisable" id="0x0101003b

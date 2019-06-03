@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "999747787181",
+    "firebase_url": "https://bus-pass-16aab.firebaseio.com",
+    "project_id": "bus-pass-16aab",
+    "storage_bucket": "bus-pass-16aab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:999747787181:android:fd8a9cfe701eddcb",
+        "android_client_info": {
+          "package_name": "com.example.nd.buspasssystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "999747787181-ueqga7n8tqhootdfj3s1fso411ru0pi6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkKCCToASLPmG4MGmS8zUul4ZQypVkS2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "999747787181-ueqga7n8tqhootdfj3s1fso411ru0pi6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
